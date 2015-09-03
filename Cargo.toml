@@ -1,0 +1,9 @@
+[package]
+name = "jsonapi"
+version = "0.1.0"
+authors = ["Erick Tryzelaar <erick.tryzelaar@gmail.com>"]
+
+[dependencies]
+serde = "*"
+serde_json = "*"
+serde_macros = "*"
