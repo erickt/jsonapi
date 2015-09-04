@@ -39,6 +39,7 @@ enum Document {
 }
 
 
+
 /// The top-level links object **MAY** contain the following members:
 ///
 /// * self: the link that generated the current response document.
@@ -348,3 +349,8 @@ struct JsonAPIObject {
 /// * U+007D RIGHT CURLY BRACKET, "}"
 /// * U+007E TILDE, "~"
 struct Name(String);
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+
